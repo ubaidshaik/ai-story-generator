@@ -1,0 +1,4 @@
+gradio
+fpdf
+gTTS
+ollama
