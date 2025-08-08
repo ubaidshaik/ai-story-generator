@@ -1,121 +1,77 @@
-# 🌍✨ AI Story & Poem Generator (Multilingual) ✨🌍
+---
+title: Multilingual AI Story & Poem Generator
+emoji: 📚
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: "4.36.1"
+app_file: app.py
+pinned: false
+---
 
-A powerful **multilingual AI story and poem generator** built with **Google Gemini 1.5 Flash**, **Gradio**, and **gTTS**.  
-This application lets users create creative stories and poems in **20+ languages** with customizable genres, tones, and creativity levels — along with voice narration and HTML export for PDF conversion.
+# 🌍 Multilingual AI Story & Poem Generator
+
+An AI-powered creative writing tool built with **Google Gemini 1.5 Flash**, **Gradio**, and **gTTS**.  
+It can generate short stories or poems in **20+ languages** with customizable genre, tone, and creativity level — plus voice narration and HTML export.
 
 ---
 
-## 🚀 Features
+## ✨ Features
 
-- **🌐 20+ Language Support**
-  - Includes English, Hindi, Telugu, Tamil, Malayalam, Kannada, French, Spanish, Russian, Japanese, Arabic, and more.
-- **🎭 Genre & Style Options**
-  - Fantasy, Thriller, Haiku, Sonnet, Historical, Adventure, Sci-Fi, Romance, and more.
-- **🎶 Tone Customization**
-  - Choose from tones like Inspiring, Dramatic, Whimsical, Suspenseful, Light-hearted, etc.
-- **💡 Creativity Control**
-  - From structured to experimental storytelling.
-- **🔊 Voice Narration**
-  - Powered by **gTTS**, supports voice in the selected language.
-- **📄 HTML Export**
-  - Print-ready HTML output for easy PDF saving.
-- **✏️ Plot Outline Mode**
-  - Generate plot outlines before creating the full content.
+- **20+ Supported Languages** (English, Hindi, Telugu, Tamil, French, Spanish, Russian, Japanese, Arabic, and more).
+- **Tone & Genre Control** — Fantasy, Thriller, Haiku, Sonnet, etc.
+- **Voice Narration** — Uses `gTTS` to narrate in the selected language.
+- **HTML Export** — Print-ready formatting for PDF creation.
+- **Creativity Levels** — From structured storytelling to experimental outputs.
+- **Outline Generator** — Get a plot or poem structure before generating full content.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **[Google Gemini 1.5 Flash API](https://ai.google.dev/)**
-- **[Gradio](https://www.gradio.app/)**
-- **[gTTS (Google Text-to-Speech)](https://pypi.org/project/gTTS/)**
-- **Python 3.10+**
+- **Backend:** Python 3, Google Gemini API (`gemini-1.5-flash`)
+- **Frontend:** Gradio Blocks UI
+- **Audio:** Google Text-to-Speech (`gTTS`)
+- **Deployment:** Hugging Face Spaces
 
 ---
 
-## 📥 Installation
-
-1. **Clone this repository**
-   ```bash
-   git clone https://github.com/yourusername/ai-story-poem-generator.git
-   cd ai-story-poem-generator
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Set up environment variable**
-   - Create a `.env` file or set in terminal:
-     ```bash
-     export GOOGLE_API_KEY="your_google_gemini_api_key"
-     ```
-
-4. **Run the app**
-   ```bash
-   python app.py
-   ```
-
----
-
-## 📋 Usage
+## 🚀 Usage
 
 1. Select:
-   - Content Type: Story or Poem
-   - Genre / Style
-   - Language
-   - Tone
-   - Creativity Level
-   - Theme & Characters
-
-2. Click **"Generate Story/Poem"**.
-
-3. Optional:
-   - Listen to generated text with the **audio player**.
-   - Download the HTML file and save as PDF.
-   - Generate a plot outline before creating the final text.
-
----
-
-## 🌐 Supported Languages
-
-English | Hindi | Telugu | Tamil | Malayalam | Kannada | French | Spanish | Russian | Japanese | Arabic | Bengali | German | Italian | Portuguese | Dutch | Turkish | Indonesian | Chinese (Mandarin)
+   - **Content Type**: Story or Poem
+   - **Genre**: Fantasy, Sci-Fi, etc.
+   - **Language**
+   - **Tone**
+   - **Creativity Level**
+2. Enter a **Theme** and **Characters**.
+3. Click **Generate Story/Poem**.
+4. Listen to the narration or download as HTML.
+5. To save as PDF:
+   - Open the downloaded HTML file in a browser.
+   - Press `Ctrl+P` (or `Cmd+P` on Mac).
+   - Change destination to **Save as PDF**.
 
 ---
 
-## 📸 Screenshots
+## 📦 Installation (Local)
 
-> *(Add your app screenshots here)*
-
----
-
-## 🏢 Acknowledgment
-
-Special thanks to **Saredufy Web Plus Academy Private Limited** for guidance and support throughout the development of this project.
+```bash
+git clone https://github.com/ubaidshaik/ai-story-poem-generator.git
+cd ai-story-poem-generator
+pip install -r requirements.txt
+export GOOGLE_API_KEY=your_api_key_here
+python app.py
+```
 
 ---
 
 ## 📜 License
 
-This project is open-source and available under the **MIT License**.
+MIT License.
 
 ---
 
-## 💡 Future Improvements
+## 🙏 Acknowledgements
 
-- Direct PDF export without manual conversion
-- Social sharing integration
-- More advanced voice synthesis options
-- Additional creative writing modes
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!  
-Please fork this repository and submit a pull request for any improvements or fixes.
-
----
-
-**#AI #GeminiAPI #GoogleAI #Gradio #gTTS #MultilingualAI #LLM #OpenSource #Python #AIStoryGenerator #PromptEngineering #CreativeAI**
+Special thanks to **Saredufy Web Plus Academy Private Limited** for guidance and mentorship during development.
