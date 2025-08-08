@@ -1,4 +1,4 @@
 gradio
-fpdf
-gTTS
-ollama
+google-generativeai
+gtts
+html5lib
